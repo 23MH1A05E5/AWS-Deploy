@@ -10,10 +10,10 @@ public class Csecontroller {
 
 	@GetMapping("/adityacse")
 	public String rocks() {
-		return "Welcome to Jekins AWS from Aditya";
+		return "This is my first spring boot";
 	}
 	@GetMapping("/adityit")
 		public String rocks1() {
-			return "Welcome to CSE";
+			return "Welcome to Jekins world";
 		}
 	}
